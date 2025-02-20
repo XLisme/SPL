@@ -1,0 +1,41 @@
+theme: jekyll-theme-minimal
+
+# Model parameters
+netG: 'global'
+ngf: 64
+input_nc: 3
+output_nc: 3
+n_downsample_global: 3
+n_blocks_global: 9
+n_local_enhancers: 1
+
+# Face processing
+face_generator: true
+face_residual: true
+face_dim: 128
+
+# Image dimensions
+loadSize: 1024
+fineSize: 512
+
+# Paths
+generator_path: 'checkpoints/generator.pth'
+face_generator_path: 'checkpoints/face_generator.pth'
+
+# Processing parameters
+batch_size: 32
+num_frames: 30
+fps: 30
+
+# Data processing
+target_size: 224
+
+# Training parameters
+num_epochs: 100
+learning_rate: 0.0002
+beta1: 0.5
+lambda_pixel: 100
+save_interval: 5
+
+# Paths
+checkpoints_dir: "models/checkpoints"

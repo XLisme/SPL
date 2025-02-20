@@ -1,0 +1,13 @@
+# Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+cuda-python>=11.6  # Chỉ cần nếu dùng GPU
+
+# Data Processing
+numpy>=1.19.2
+opencv-python>=4.5.3
+mediapipe>=0.8.9
+tqdm>=4.62.3
+pyyaml>=5.4.1
+matplotlib>=3.4.3
+pillow>=8.3.2

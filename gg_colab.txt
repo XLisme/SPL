@@ -1,0 +1,10 @@
+# Mount Google Drive
+from google.colab import drive
+drive.mount('/content/drive')
+
+# Clone repository và cài đặt dependencies
+!git clone <your-repo-url>
+!cd <repo-folder>
+!pip install -r requirements.txt
+
+# Colab đã có sẵn CUDA và các thư viện cần thiết
